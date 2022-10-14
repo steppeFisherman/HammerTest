@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/redfo/AndroidStudioProjects/DodoTest/app/src/main/res/drawable-figma/__background_shape.xml" value="0.1" />
+        <entry key="..\:/Users/redfo/AndroidStudioProjects/DodoTest/app/src/main/res/drawable-figma/_bg__home_shape.xml" value="0.1" />
+        <entry key="..\:/Users/redfo/AndroidStudioProjects/DodoTest/app/src/main/res/drawable-figma/ic_launcher_background.xml" value="0.1" />
+        <entry key="..\:/Users/redfo/AndroidStudioProjects/DodoTest/app/src/main/res/drawable-figma/line_4_ek1_shape.xml" value="0.1" />
+        <entry key="..\:/Users/redfo/AndroidStudioProjects/DodoTest/app/src/main/res/drawable-figma/line_4_ek2_shape.xml" value="0.1" />
+        <entry key="..\:/Users/redfo/AndroidStudioProjects/DodoTest/app/src/main/res/drawable-figma/line_5_shape.xml" value="0.1" />
+        <entry key="..\:/Users/redfo/AndroidStudioProjects/DodoTest/app/src/main/res/drawable-figma/rectangle_40_ek2_shape.xml" value="0.1" />
+        <entry key="..\:/Users/redfo/AndroidStudioProjects/DodoTest/app/src/main/res/drawable-figma/rectangle_40_ek3_shape.xml" value="0.1" />
+        <entry key="..\:/Users/redfo/AndroidStudioProjects/DodoTest/app/src/main/res/drawable-figma/rectangle_40_shape.xml" value="0.1" />
+        <entry key="..\:/Users/redfo/AndroidStudioProjects/DodoTest/app/src/main/res/drawable-figma/rectangle_42_ek1_shape.xml" value="0.1" />
+        <entry key="..\:/Users/redfo/AndroidStudioProjects/DodoTest/app/src/main/res/drawable-figma/rectangle_42_ek2_shape.xml" value="0.1" />
+        <entry key="..\:/Users/redfo/AndroidStudioProjects/DodoTest/app/src/main/res/drawable-figma/rectangle_42_shape.xml" value="0.1" />
+        <entry key="..\:/Users/redfo/AndroidStudioProjects/DodoTest/app/src/main/res/drawable-figma/rectangle_54_shape.xml" value="0.1" />
+        <entry key="..\:/Users/redfo/AndroidStudioProjects/DodoTest/app/src/main/res/drawable-figma/rectangle_56_shape.xml" value="0.1" />
+        <entry key="..\:/Users/redfo/AndroidStudioProjects/DodoTest/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.119" />
+        <entry key="..\:/Users/redfo/AndroidStudioProjects/DodoTest/app/src/main/res/drawable/__background_active_ek3_shape.xml" value="0.1" />
+        <entry key="..\:/Users/redfo/AndroidStudioProjects/DodoTest/app/src/main/res/drawable/__background_active_shape.xml" value="0.1" />
+        <entry key="..\:/Users/redfo/AndroidStudioProjects/DodoTest/app/src/main/res/drawable/__background_ek1_shape.xml" value="0.175" />
+        <entry key="..\:/Users/redfo/AndroidStudioProjects/DodoTest/app/src/main/res/drawable/__background_shape.xml" value="0.1" />
+        <entry key="..\:/Users/redfo/AndroidStudioProjects/DodoTest/app/src/main/res/drawable/_bg__home_ek2_shape.xml" value="0.1" />
+        <entry key="..\:/Users/redfo/AndroidStudioProjects/DodoTest/app/src/main/res/drawable/_bg__home_scroll_ek2_shape.xml" value="0.1" />
+        <entry key="..\:/Users/redfo/AndroidStudioProjects/DodoTest/app/src/main/res/drawable/_bg__home_shape.xml" value="0.1" />
+        <entry key="..\:/Users/redfo/AndroidStudioProjects/DodoTest/app/src/main/res/drawable/basket.xml" value="0.1" />
+        <entry key="..\:/Users/redfo/AndroidStudioProjects/DodoTest/app/src/main/res/drawable/bottom_nav_item_color.xml" value="0.1" />
+        <entry key="..\:/Users/redfo/AndroidStudioProjects/DodoTest/app/src/main/res/drawable/ic__4b55cde_1e21_47ce_8121_65701cff84d9.xml" value="0.1" />
+        <entry key="..\:/Users/redfo/AndroidStudioProjects/DodoTest/app/src/main/res/drawable/ic__5fe1271_c042_401f_8cba_55594fce173a.xml" value="0.1" />
+        <entry key="..\:/Users/redfo/AndroidStudioProjects/DodoTest/app/src/main/res/drawable/ic__d06b595_5747_4d52_849f_7f6ca91ffd75.xml" value="0.1" />
+        <entry key="..\:/Users/redfo/AndroidStudioProjects/DodoTest/app/src/main/res/drawable/ic__de255d4_6666_4bf6_a542_65fd4cc8c0dd.xml" value="0.1" />
+        <entry key="..\:/Users/redfo/AndroidStudioProjects/DodoTest/app/src/main/res/drawable/ic_basket.xml" value="0.1" />
+        <entry key="..\:/Users/redfo/AndroidStudioProjects/DodoTest/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1" />
+        <entry key="..\:/Users/redfo/AndroidStudioProjects/DodoTest/app/src/main/res/drawable/ic_launcher_foreground.xml" value="0.1" />
+        <entry key="..\:/Users/redfo/AndroidStudioProjects/DodoTest/app/src/main/res/drawable/ic_menu.xml" value="0.1" />
+        <entry key="..\:/Users/redfo/AndroidStudioProjects/DodoTest/app/src/main/res/drawable/ic_person.xml" value="0.1" />
+        <entry key="..\:/Users/redfo/AndroidStudioProjects/DodoTest/app/src/main/res/drawable/ic_person_24.xml" value="0.1" />
+        <entry key="..\:/Users/redfo/AndroidStudioProjects/DodoTest/app/src/main/res/drawable/ic_person_36.xml" value="0.1265" />
+        <entry key="..\:/Users/redfo/AndroidStudioProjects/DodoTest/app/src/main/res/drawable/ic_profile.xml" value="0.1" />
+        <entry key="..\:/Users/redfo/AndroidStudioProjects/DodoTest/app/src/main/res/drawable/ic_vector_ek5.xml" value="0.1" />
+        <entry key="..\:/Users/redfo/AndroidStudioProjects/DodoTest/app/src/main/res/drawable/line_4_ek1_shape.xml" value="0.1" />
+        <entry key="..\:/Users/redfo/AndroidStudioProjects/DodoTest/app/src/main/res/drawable/line_4_ek2_shape.xml" value="0.1" />
+        <entry key="..\:/Users/redfo/AndroidStudioProjects/DodoTest/app/src/main/res/drawable/line_4_ek3_shape.xml" value="0.1" />
+        <entry key="..\:/Users/redfo/AndroidStudioProjects/DodoTest/app/src/main/res/drawable/line_4_ek4_shape.xml" value="0.1" />
+        <entry key="..\:/Users/redfo/AndroidStudioProjects/DodoTest/app/src/main/res/drawable/line_4_ek5_shape.xml" value="0.1" />
+        <entry key="..\:/Users/redfo/AndroidStudioProjects/DodoTest/app/src/main/res/drawable/line_4_shape.xml" value="0.1" />
+        <entry key="..\:/Users/redfo/AndroidStudioProjects/DodoTest/app/src/main/res/drawable/line_5_ek1_shape.xml" value="0.1" />
+        <entry key="..\:/Users/redfo/AndroidStudioProjects/DodoTest/app/src/main/res/drawable/line_5_shape.xml" value="0.1" />
+        <entry key="..\:/Users/redfo/AndroidStudioProjects/DodoTest/app/src/main/res/drawable/menu.xml" value="0.1" />
+        <entry key="..\:/Users/redfo/AndroidStudioProjects/DodoTest/app/src/main/res/drawable/navigation_view_colored.xml" value="0.1" />
+        <entry key="..\:/Users/redfo/AndroidStudioProjects/DodoTest/app/src/main/res/drawable/profile.xml" value="0.1" />
+        <entry key="..\:/Users/redfo/AndroidStudioProjects/DodoTest/app/src/main/res/drawable/rectangle_40_ek1_shape.xml" value="0.119" />
+        <entry key="..\:/Users/redfo/AndroidStudioProjects/DodoTest/app/src/main/res/drawable/rectangle_40_ek2_shape.xml" value="0.1" />
+        <entry key="..\:/Users/redfo/AndroidStudioProjects/DodoTest/app/src/main/res/drawable/rectangle_40_ek6_shape.xml" value="0.1" />
+        <entry key="..\:/Users/redfo/AndroidStudioProjects/DodoTest/app/src/main/res/drawable/rectangle_54_ek1_shape.xml" value="0.1" />
+        <entry key="..\:/Users/redfo/AndroidStudioProjects/DodoTest/app/src/main/res/drawable/rectangle_54_shape.xml" value="0.1" />
+        <entry key="..\:/Users/redfo/AndroidStudioProjects/DodoTest/app/src/main/res/drawable/rectangle_56_ek1_shape.xml" value="0.1" />
+        <entry key="..\:/Users/redfo/AndroidStudioProjects/DodoTest/app/src/main/res/drawable/rectangle_56_shape.xml" value="0.1" />
+        <entry key="..\:/Users/redfo/AndroidStudioProjects/DodoTest/app/src/main/res/layout/activity_main.xml" value="0.189873417721519" />
+        <entry key="..\:/Users/redfo/AndroidStudioProjects/DodoTest/app/src/main/res/layout/fragment_basket.xml" value="0.144803229061554" />
+        <entry key="..\:/Users/redfo/AndroidStudioProjects/DodoTest/app/src/main/res/layout/fragment_main.xml" value="0.17010309278350516" />
+        <entry key="..\:/Users/redfo/AndroidStudioProjects/DodoTest/app/src/main/res/layout/fragment_profile.xml" value="0.1390625" />
+        <entry key="..\:/Users/redfo/AndroidStudioProjects/DodoTest/app/src/main/res/layout/item_raw.xml" value="0.36231884057971014" />
+        <entry key="..\:/Users/redfo/AndroidStudioProjects/DodoTest/app/src/main/res/menu/menu_bottom_navigation_view.xml" value="0.25" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

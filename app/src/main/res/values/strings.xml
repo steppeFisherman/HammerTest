@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">Dodo Test</string>
+    <string name="not_applicable">N/A</string>
+    <string name="some_id">Москва</string>
+    <string name="pizza">Пицца</string>
+    <string name="combo">Комбо</string>
+    <string name="deserts">Десерты</string>
+    <string name="drinks">Напитки</string>
+    <string name="menu">Меню</string>
+    <string name="profile">Профиль</string>
+    <string name="basket">Корзина</string>
+
+    <!--  figma original home_scroll strings -->
+    <string name="ek_img_content">ExportKit Image</string>
+    <string name="________________string">   </string>
+    <string name="________________________________________________________________string" />
+    <string name="___345___string"> 345 </string>
+    <string name="___________________string"> </string>
+    <string name="_____________________________________________________________________________string" />
+    <string name="___345___ek1_string"> 345 </string>
+    <string name="______________string"> </string>
+    <string name="__________________________________________________string" />
+    <string name="___345___ek2_string"> 345 </string>
+    <string name="______ek3_string" />
+    <string name="______ek4_string" />
+    <string name="________string" />
+    <string name="________ek1_string" />
+    <string name="label_string" />
+    <string name="label_ek1_string" />
+    <string name="label_ek2_string" />
+    <string name="_______ek1_string" />
+    <string name="________________ek1_string" />
+    <string name="________________________________________________________________ek1_string" />
+    <string name="___345___ek3_string"> 345 </string>
+    <string name="___________________ek1_string"> </string>
+    <string name="___345___ek4_string"> 345 </string>
+    <string name="______________ek1_string"> </string>
+    <string name="__________________________________________________ek1_string">, , , , </string>
+    <string name="___345___ek5_string"> 345 </string>
+    <string name="______ek8_string" />
+    <string name="______ek9_string" />
+    <string name="________ek3_string" />
+    <string name="________ek4_string" />
+    <string name="label_ek3_string" />
+    <string name="label_ek4_string" />
+    <string name="label_ek5_string" />
+    <string name="_______ek4_string" />
+    <string name="vector_ek37">vector_ek37</string>
+    <string name="qr_image">qr_image</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

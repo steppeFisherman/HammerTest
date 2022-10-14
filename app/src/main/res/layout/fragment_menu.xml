@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/main_screen"
+    tools:context=".MainActivity">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appBarLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/main_screen"
+        android:fitsSystemWindows="true">
+
+        <com.google.android.material.appbar.CollapsingToolbarLayout
+            android:id="@+id/collapsing_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="184dp"
+            android:layout_marginTop="@dimen/margin_16"
+            android:fitsSystemWindows="true"
+            app:layout_scrollFlags="scroll|exitUntilCollapsed|snap">
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scrollbars="none">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="112dp"
+                    android:orientation="horizontal">
+
+                    <com.google.android.material.imageview.ShapeableImageView
+                        android:id="@+id/rectangle_38"
+                        android:layout_width="320dp"
+                        android:layout_height="112dp"
+                        android:layout_marginStart="@dimen/margin_16"
+                        android:scaleType="centerCrop"
+                        app:shapeAppearanceOverlay="@style/Favourite.ShapeAppearanceOverlay.Round"
+                        app:srcCompat="@drawable/holder_2" />
+
+                    <com.google.android.material.imageview.ShapeableImageView
+                        android:id="@+id/rectangle_39"
+                        android:layout_width="300dp"
+                        android:layout_height="112dp"
+                        android:layout_marginStart="@dimen/margin_16"
+                        android:layout_marginEnd="@dimen/margin_16"
+                        android:scaleType="centerCrop"
+                        app:shapeAppearanceOverlay="@style/Favourite.ShapeAppearanceOverlay.Round"
+                        app:srcCompat="@drawable/holder" />
+                </LinearLayout>
+            </HorizontalScrollView>
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="52dp"
+                android:layout_gravity="bottom"
+                android:layout_marginBottom="@dimen/margin_10">
+
+                <HorizontalScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:clipToPadding="true"
+                    android:scrollbars="none">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <com.google.android.material.button.MaterialButton
+                            android:id="@+id/pizza_category_btn"
+                            style="@style/category_btn"
+                            android:backgroundTint="@color/category_chosen"
+                            android:text="@string/pizza"
+                            android:textColor="@color/red_price_textView" />
+
+                        <com.google.android.material.button.MaterialButton
+                            android:id="@+id/combo_category_btn"
+                            style="@style/category_btn"
+                            android:layout_marginStart="@dimen/margin_10"
+                            android:text="@string/combo" />
+
+                        <com.google.android.material.button.MaterialButton
+                            android:id="@+id/deserts_category_btn"
+                            style="@style/category_btn"
+                            android:layout_marginStart="@dimen/margin_10"
+                            android:text="@string/deserts" />
+
+                        <com.google.android.material.button.MaterialButton
+                            android:id="@+id/drinks_category_btn"
+                            style="@style/category_btn"
+                            android:layout_marginStart="@dimen/margin_10"
+                            android:layout_marginEnd="@dimen/margin_10"
+                            android:text="@string/drinks" />
+
+                    </LinearLayout>
+                </HorizontalScrollView>
+            </androidx.appcompat.widget.Toolbar>
+        </com.google.android.material.appbar.CollapsingToolbarLayout>
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clipToPadding="false"
+        android:overScrollMode="never"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior" />
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+
