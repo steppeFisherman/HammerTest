@@ -1,4 +1,4 @@
-package com.example.dodotest
+package com.example.dodotest.ui.screens
 
 import android.os.Bundle
 import android.view.LayoutInflater

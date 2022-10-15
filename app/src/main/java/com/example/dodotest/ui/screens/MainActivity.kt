@@ -1,13 +1,15 @@
-package com.example.dodotest
+package com.example.dodotest.ui.screens
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.navigation.NavController
 import androidx.navigation.fragment.NavHostFragment
-import com.example.dodotest.databinding.ActivityMainBinding
 import androidx.navigation.ui.setupWithNavController
-import com.google.android.material.bottomnavigation.BottomNavigationView
+import com.example.dodotest.R
+import com.example.dodotest.databinding.ActivityMainBinding
+import dagger.hilt.android.AndroidEntryPoint
 
+@AndroidEntryPoint
 class MainActivity : AppCompatActivity() {
 
     private lateinit var binding: ActivityMainBinding
@@ -25,6 +27,6 @@ class MainActivity : AppCompatActivity() {
             supportFragmentManager.findFragmentById(R.id.nav_host_fragment) as NavHostFragment
         navControllerMain = navHostFragment.navController
         binding.bottomNavigation.setupWithNavController(navControllerMain)
-    //    binding.bottomNavigation.itemIconTintList = null
+        //    binding.bottomNavigation.itemIconTintList = null
     }
 }

@@ -3,6 +3,7 @@
     package="com.example.dodotest">
 
     <application
+        android:name="com.example.dodotest.ui.app.App"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
@@ -10,7 +11,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.DodoTest">
         <activity
-            android:name=".MainActivity"
+            android:name="com.example.dodotest.ui.screens.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

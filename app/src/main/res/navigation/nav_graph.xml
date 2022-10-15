@@ -7,17 +7,17 @@
 
     <fragment
         android:id="@+id/menuFragment"
-        android:name="com.example.dodotest.MenuFragment"
+        android:name="com.example.dodotest.ui.screens.main.MenuFragment"
         android:label="MenuFragment"
         tools:layout="@layout/fragment_menu" />
     <fragment
         android:id="@+id/profileFragment"
-        android:name="com.example.dodotest.ProfileFragment"
+        android:name="com.example.dodotest.ui.screens.main.ProfileFragment"
         android:label="ProfileFragment"
         tools:layout="@layout/fragment_profile" />
     <fragment
         android:id="@+id/basketFragment"
-        android:name="com.example.dodotest.BasketFragment"
+        android:name="com.example.dodotest.ui.screens.main.BasketFragment"
         android:label="BasketFragment"
         tools:layout="@layout/fragment_basket" />
 </navigation>

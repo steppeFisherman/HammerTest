@@ -1,11 +1,13 @@
-package com.example.dodotest
+package com.example.dodotest.ui.adapters
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.example.dodotest.databinding.ItemRawBinding
 
-class Adapter : RecyclerView.Adapter<Adapter.MainViewHolder>() {
+import com.example.dodotest.databinding.ItemRawBinding
+import com.example.dodotest.ui.model.Item
+
+class MenuAdapter : RecyclerView.Adapter<MenuAdapter.MainViewHolder>() {
 
     val list = listOf<Item>(
         Item("dfggdfgfgfd"),
