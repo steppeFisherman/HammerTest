@@ -17,7 +17,7 @@ interface MapCombined {
                     DataAppCombined(
                         id = id,
                         title = bestSellerApp.title,
-                        description = "just some random text for the test purposes jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj",
+                        description = "just some random text for the test purposes to check out if the borders were set up correctly",
                         picture = bestSellerApp.picture,
                         discount_price = bestSellerApp.discount_price
                     )
