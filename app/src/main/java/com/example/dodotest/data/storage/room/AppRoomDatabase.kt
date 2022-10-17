@@ -1,9 +1,14 @@
 package com.example.dodotest.data.storage.room
 
 import android.content.Context
+import androidx.room.Database
 import androidx.room.Room
 import androidx.room.RoomDatabase
+import androidx.room.TypeConverters
+import com.example.dodotest.data.storage.model.cacheModel.DataCache
 
+@Database(entities = [DataCache::class], version = 1, exportSchema = false)
+@TypeConverters(ConverterKlass::class)
 abstract class AppRoomDatabase : RoomDatabase() {
 
     abstract fun getAppRoomDao(): AppRoomDao

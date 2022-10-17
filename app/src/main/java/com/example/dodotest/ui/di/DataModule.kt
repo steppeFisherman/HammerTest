@@ -3,8 +3,7 @@ package com.example.dodotest.ui.di
 import android.content.Context
 import com.example.dodotest.data.net.CloudData
 import com.example.dodotest.data.net.Service
-import com.example.dodotest.data.repository.RepositoryImpl
-import com.example.dodotest.data.repository.ToDispatch
+import com.example.dodotest.data.repository.*
 import com.example.dodotest.data.storage.room.AppRoomDao
 import com.example.dodotest.data.storage.room.AppRoomDatabase
 import com.example.dodotest.domain.Repository
@@ -53,17 +52,49 @@ class DataModule {
         AppRoomDatabase.getInstance(context = context).getAppRoomDao()
 
     @Provides
+    @Singleton
+    fun provideBaseMapCacheToDomain(): MapCacheToDomain =
+        MapCacheToDomain.Base()
+
+    @Provides
+    @Singleton
+    fun provideBaseMapCloudToCache(): MapCloudToCache =
+        MapCloudToCache.Base()
+
+    @Provides
+    @Singleton
+    fun provideBaseMapCloudToDomain(): MapCloudToDomain =
+        MapCloudToDomain.Base()
+
+    @Provides
     fun provideDispatchers(): ToDispatch = ToDispatch.Base()
+
+    @Provides
+    fun provideCloudSource(
+        appDao: AppRoomDao,
+        mapCacheToDomain: MapCacheToDomain,
+        mapCloudToCache: MapCloudToCache,
+        cloudData: CloudData,
+        dispatchers: ToDispatch,
+    ): CloudSource = CloudSource.InitialFetchFromCache(
+        appDao = appDao,
+        mapperCacheToDomain = mapCacheToDomain,
+        mapperCloudToCache = mapCloudToCache,
+        cloudData = cloudData,
+        dispatchers = dispatchers,
+    )
+
+    @Provides
+    fun provideExceptionHandle(): ExceptionHandle =
+        ExceptionHandle.Base()
 
     @Provides
     @Singleton
     fun provideRepository(
-        appDao: AppRoomDao,
-        cloudData: CloudData,
-        dispatchers: ToDispatch,
+        cloudSource: CloudSource,
+        exceptionHandle: ExceptionHandle
     ): Repository = RepositoryImpl(
-        appDao = appDao,
-        cloudData = cloudData,
-        dispatchers = dispatchers
+        cloudSource = cloudSource,
+        exceptionHandle = exceptionHandle
     )
 }

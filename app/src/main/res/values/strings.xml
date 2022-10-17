@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Dodo Test</string>
+    <string name="app_name">HS Test</string>
     <string name="not_applicable">N/A</string>
     <string name="some_id">Москва</string>
     <string name="pizza">Пицца</string>
@@ -9,6 +9,12 @@
     <string name="menu">Меню</string>
     <string name="profile">Профиль</string>
     <string name="basket">Корзина</string>
+    <string name="no_connection_message">No Connection</string>
+    <string name="service_unavailable_message">Service Unavailable</string>
+    <string name="null_pointer_exception">NullPointerException</string>
+    <string name="arithmetic_exception">ArithmeticException</string>
+    <string name="something_went_wrong">Something Went Wrong</string>
+    <string name="part_a">part a value = %1$d</string>
 
     <!--  figma original home_scroll strings -->
     <string name="ek_img_content">ExportKit Image</string>
@@ -47,7 +53,5 @@
     <string name="_______ek4_string" />
     <string name="vector_ek37">vector_ek37</string>
     <string name="qr_image">qr_image</string>
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
-
+    <string name="main_img">main_img</string>
 </resources>

@@ -6,10 +6,24 @@
     <dimen name="margin_10">10dp</dimen>
     <dimen name="margin_16">16dp</dimen>
     <dimen name="margin_18">18dp</dimen>
+    <dimen name="margin_22">22dp</dimen>
     <dimen name="margin_24">24dp</dimen>
     <dimen name="margin_30">30dp</dimen>
     <dimen name="margin_32">32dp</dimen>
     <dimen name="margin_40">40dp</dimen>
     <dimen name="margin_42">42dp</dimen>
     <dimen name="margin_96">96dp</dimen>
+
+    <dimen name="height_1">1dp</dimen>
+    <dimen name="width_24">24dp</dimen>
+    <dimen name="height_24">24dp</dimen>
+    <dimen name="width_135">135dp</dimen>
+    <dimen name="height_135">135dp</dimen>
+
+    <!-- TextView -->
+    <dimen name="text_size_1">1sp</dimen>
+    <dimen name="text_size_13">13sp</dimen>
+    <dimen name="text_size_14">14sp</dimen>
+    <dimen name="text_size_16">16sp</dimen>
+
 </resources>

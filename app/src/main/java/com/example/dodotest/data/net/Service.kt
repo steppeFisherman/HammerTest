@@ -1,17 +1,14 @@
 package com.example.dodotest.data.net
 
-import com.example.dodotest.data.storage.model.cloudModel.ItemCloud
-import retrofit2.Response
+import com.example.dodotest.data.storage.model.cloudModel.DataCloud
 import retrofit2.http.GET
-import retrofit2.http.Query
 
 interface Service {
 
     companion object {
-        const val BASE_URL = ""
-        const val API_KEY = ""
+        const val BASE_URL = "https://run.mocky.io/"
     }
 
-    @GET("svc/movies/v2/reviews/all.json")
-    suspend fun fetchCloud(@Query("api-key") key: String = API_KEY): Response<ItemCloud>
+    @GET("v3/654bd15e-b121-49ba-a588-960956b15175")
+    suspend fun fetchCloud(): DataCloud
 }

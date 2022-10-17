@@ -4,9 +4,10 @@ import androidx.room.Entity
 import androidx.room.PrimaryKey
 
 @Entity(tableName = "item_table")
-data class ItemCache(
+data class DataCache(
     @PrimaryKey(autoGenerate = true)
-    val id: Int,
-    val name: String,
-    val price: Int
+    val _id: Int,
+    val best_seller: List<BestSellerCache>,
+    val home_store: List<HomeStoreCache>
 )
+
