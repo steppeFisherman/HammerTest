@@ -28,7 +28,7 @@ interface MapCombined {
                 DataAppCombined(
                     id = id,
                     title = homeStore.title,
-                    description = "just some random text for the test purposesjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj",
+                    description = "just some EXTRA LONG random text for the test purposes to check out if the borders were set up correctly and all the constraints are in order",
                     picture = homeStore.picture,
                     discount_price = (300..700).shuffled().first()
                 )
